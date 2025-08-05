@@ -1,0 +1,41 @@
+{
+  "name": "scheduling-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+    "@fullcalendar/daygrid": "^6.1.18",
+    "@fullcalendar/interaction": "^6.1.18",
+    "@fullcalendar/react": "^6.1.18",
+    "@fullcalendar/resource-timeline": "^6.1.18",
+    "@fullcalendar/timegrid": "^6.1.18",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "PORT=3000 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

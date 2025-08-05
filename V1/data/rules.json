@@ -1,0 +1,50 @@
+{
+  "coverage": {
+    "primary": {
+      "start": "08:00",
+      "end": "17:00",
+      "requirements": {
+        "Reservations": 3,
+        "Dispatch": 1
+      }
+    },
+    "evening": {
+      "start": "17:00",
+      "end": "22:00",
+      "requirements": {
+        "Reservations": 2,
+        "Dispatch": 1
+      }
+    }
+  },
+  "lunches": {
+    "standardWindows": [
+      {
+        "start": "11:00",
+        "end": "12:30"
+      },
+      {
+        "start": "12:00",
+        "end": "13:30"
+      },
+      {
+        "start": "12:30",
+        "end": "14:00"
+      }
+    ],
+    "exceptions": {
+      "Katy": {
+        "start": "15:00",
+        "end": "16:00"
+      }
+    }
+  },
+  "priorityHierarchy": [
+    "EXACT_COVERAGE_FIRST",
+    "DISPATCH_CONTINUITY",
+    "LUNCH_COMPLIANCE",
+    "EVENING_COVERAGE",
+    "HOUR_COMPLIANCE",
+    "SPECIALIST_TIME"
+  ]
+}
